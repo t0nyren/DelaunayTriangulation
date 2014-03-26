@@ -46,7 +46,6 @@ int main(){
 		cout<<"Couldn't open landmarks files"<<endl;
 	}
 	Point* srcPoints = new Point[numLandmarks];
-	Point* dstPoints = new Point[numLandmarks];
 	
 	//Delaunay Triangulation
 	for (int i = 0; i < numLandmarks; i++){
